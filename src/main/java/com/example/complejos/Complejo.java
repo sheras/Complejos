@@ -37,5 +37,6 @@ class Complejo {
     public void resta(Complejo v) {
         real = real - v.real;
         imaginario = imaginario - v.imaginario;
+        v.toString();
     }
 }
