@@ -33,4 +33,9 @@ class Complejo {
         real = real + v.real;
         imaginario = imaginario + v.imaginario;
     }
+
+    public void resta(Complejo v) {
+        real = real - v.real;
+        imaginario = imaginario - v.imaginario;
+    }
 }
